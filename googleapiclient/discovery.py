@@ -175,7 +175,7 @@ def build(serviceName,
       {apiVersion} that when filled in produce an absolute URI to the discovery
       document for that service.
     developerKey: string, key obtained from
-      https://code.google.com/apis/console.
+      https://https://console.cloud.google.com/apis/library.
     model: googleapiclient.Model, converts to and from the wire format.
     requestBuilder: googleapiclient.http.HttpRequest, encapsulator for an HTTP
       request.
@@ -944,7 +944,7 @@ class Resource(object):
       requestBuilder: class or callable that instantiates an
           googleapiclient.HttpRequest object.
       developerKey: string, key obtained from
-          https://code.google.com/apis/console
+          https://console.cloud.google.com/apis/library
       resourceDesc: object, section of deserialized discovery document that
           describes a resource. Note that the top level discovery document
           is considered a resource.
